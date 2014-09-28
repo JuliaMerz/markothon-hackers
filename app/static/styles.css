@@ -1,0 +1,55 @@
+*{
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  background-color: #E9EAED;
+}
+body {
+  width: 1100px;
+  margin: 10px auto;
+  background-color: white;
+}
+.post {
+  font-size: 1.2em;
+  border: solid black 1px;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+h1 {
+  background-color: #3b5998;
+  padding: 10px;
+  color: white;
+}
+#comments{
+  margin: 10px 10px 0px 40px;
+}
+
+.comment {
+  //background-color: #F6F7F8;
+  margin: 5px;
+  padding: 3px;
+}
+h5 {
+  padding: 0px;
+  margin: 0px;
+  color: #3b5998;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0px;
+  color: #3b5998;
+}
+.row {
+  color: #888;
+  font-size: .9em;
+}
+
+.row b {
+  color: #3b5998;
+  font-size: 1em;
+}
+img {
+  height: .8em;
+  margin: 2px;
+}

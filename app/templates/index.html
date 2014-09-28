@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title> Markov Soon</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <h1>Markothon Hackers </h1>
+    <div class="post">
+      <h4>Hackathon Organizer</h4>
+      {{text}}
+      <div class="row">Just now &middot; <b>Like</b> &middot; <img src="/static/like.png"><b>&infin; * 2</b></div>
+    </div>
+    <div id="comments">
+      {% for comment in comments %}
+        <div class="comment">
+          <h5>Awesome Hacker</h5>
+          {{comment}}
+
+          <div class="row">Just now &middot; <b>Like</b> &middot; <img src="/static/like.png"><b>&infin;</b></div>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
